@@ -6,8 +6,10 @@ import (
 )
 
 func main() {
+	// 获取当前时间
 	now := time.Now()
-	fmt.Println(now) // 2022-03-27 18:04:59.433297 +0800 CST m=+0.000087933
+	fmt.Println(now) // 2023-01-15 22:59:54.4044291 +0800 CST m=+0.002573301
+	// 自己构造一个带时区的时间
 	t := time.Date(2022, 3, 27, 1, 25, 36, 0, time.UTC)
 	t2 := time.Date(2022, 3, 27, 2, 30, 36, 0, time.UTC)
 	fmt.Println(t)                                                  // 2022-03-27 01:25:36 +0000 UTC

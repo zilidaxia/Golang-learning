@@ -6,6 +6,7 @@ type point struct {
 	x, y int
 }
 
+//%v可以打印任何变量，数字用：%d，字符串用：%s，获取更加详细的结果：%+v，在详细上进一步详细：%#v
 func main() {
 	s := "hello"
 	n := 123
